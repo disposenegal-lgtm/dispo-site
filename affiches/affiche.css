@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@page { size: A4 portrait; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 210mm; height: 297mm; }
+body { font-family: 'Montserrat', sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; background: #fff; }
+.poster { position: relative; width: 210mm; height: 297mm; overflow: hidden; }
+.ic { width: 100%; height: 100%; display: block; }
+:root { --red: #e30613; --hpblue: #0096d6; --navy: #07162e; }

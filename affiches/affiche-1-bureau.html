@@ -1,0 +1,67 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Dispo HP 4303 Bureau</title>
+<link rel="stylesheet" href="affiche.css"><style>
+.poster{color:#fff;background:
+ linear-gradient(115deg,transparent 52%,rgba(255,255,255,.07) 52%,rgba(255,255,255,.07) 58%,transparent 58%,transparent 63%,rgba(255,255,255,.05) 63%,rgba(255,255,255,.05) 70%,transparent 70%),
+ radial-gradient(90% 55% at 78% 30%,#3d78c4 0%,#163d7a 40%,transparent 75%),
+ linear-gradient(180deg,#0d2b5c 0%,#0a1f45 55%,#07162e 100%)}
+.desk{position:absolute;left:0;right:0;top:142mm;height:40mm;background:linear-gradient(180deg,rgba(180,205,240,.35),rgba(255,255,255,0));}
+.hp{position:absolute;top:13mm;left:14mm;width:21mm}
+.dispo{position:absolute;top:12mm;right:12mm;background:#fff;border-radius:4mm;padding:3.5mm 5mm;box-shadow:0 2mm 8mm rgba(0,0,0,.35)}
+.dispo img{height:12mm;display:block}
+.title{position:absolute;top:46mm;left:14mm;width:92mm}
+.title .l1{font-weight:400;font-size:6.6mm;letter-spacing:.2mm}
+.title .model{font-weight:900;font-size:30mm;background:linear-gradient(180deg,#fff 40%,#8fd3ff);-webkit-background-clip:text;color:transparent;line-height:.95;letter-spacing:-1mm;margin-top:1mm}
+.title .model span{background:linear-gradient(180deg,#7fd0ff,#1a8cff);-webkit-background-clip:text;color:transparent;font-size:15mm;letter-spacing:0}
+.title .fn{font-size:4.6mm;font-weight:500;margin-top:2mm}
+.title .fn b{color:#4fb3ff;font-weight:400;margin:0 2mm}
+.title .bar{width:12mm;height:1mm;background:var(--red);margin:5mm 0}
+.title p{font-size:5mm;line-height:1.35;font-weight:400}
+.title p strong{color:#fff;font-weight:800}
+.printer{position:absolute;top:50mm;right:6mm;width:104mm;filter:drop-shadow(0 6mm 6mm rgba(0,0,0,.55))}
+.tiles{position:absolute;top:158mm;left:10mm;right:10mm;display:grid;grid-template-columns:repeat(3,1fr);gap:3.5mm}
+.tile{height:39mm;border-radius:3mm;padding:4.5mm;background:linear-gradient(160deg,rgba(80,140,220,.55),rgba(13,43,92,.85));border:1px solid rgba(160,200,255,.35);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 2mm 5mm rgba(0,0,0,.3);position:relative;overflow:hidden}
+.tile::after{content:'';position:absolute;right:-10mm;top:-10mm;width:30mm;height:30mm;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.18),transparent 70%)}
+.tile h3{font-size:4.4mm;font-weight:700;line-height:1.15}
+.tile small{display:block;font-size:3.2mm;font-weight:400;opacity:.85;margin-top:.8mm}
+.tile .big{position:absolute;left:4.5mm;bottom:4.5mm;width:12mm;height:12mm;color:#cfe8ff}
+.tile .row{position:absolute;left:4mm;right:4mm;bottom:4mm;display:flex;justify-content:space-between}
+.tile .row div{text-align:center;font-size:2.7mm;width:31%}
+.tile .row .b{width:9.5mm;height:9.5mm;margin:0 auto 1mm;padding:2mm;border-radius:2mm;background:#0a1f45;border:1px solid rgba(160,200,255,.4)}
+.tile .ac{position:absolute;right:4.5mm;bottom:4mm;font-size:13mm;font-weight:900;color:rgba(255,255,255,.95);line-height:1}
+.tile .ac small{display:inline;font-size:4mm;font-weight:600;margin-left:.5mm}
+.contact{position:absolute;bottom:0;left:0;right:0;height:45mm;background:#fff;color:var(--navy);padding:6mm 12mm 0}
+.contact::before{content:'';position:absolute;left:0;right:0;top:-2.2mm;height:2.2mm;background:linear-gradient(90deg,var(--red) 0 60%,var(--hpblue) 60%)}
+.cgrid{display:grid;grid-template-columns:1.15fr 1fr;gap:3mm 6mm;align-items:center}
+.c{display:flex;align-items:center;gap:3mm}
+.c .i{width:10mm;height:10mm;padding:2.2mm;border-radius:50%;background:var(--red);color:#fff;flex:none}
+.c small{display:block;font-size:2.8mm;letter-spacing:.4mm;color:#5d6b82;text-transform:uppercase;font-weight:600}
+.c strong{font-size:6.6mm;line-height:1.15;font-weight:800;letter-spacing:.2mm}
+.c .web{font-size:9mm;font-weight:900;color:var(--red)}
+.addr{margin:3mm -12mm 0;background:var(--navy);color:#fff;height:12mm;display:flex;align-items:center;justify-content:center;gap:2.5mm;font-size:4.1mm;font-weight:600}
+.addr .i{width:5.5mm;height:5.5mm;color:var(--red)}
+</style></head><body><div class="poster">
+<div class="desk"></div>
+<img class="hp" src="images/logo-hp.svg" alt="HP">
+<div class="dispo"><img src="images/logo-dispo.png" alt="Dispo"></div>
+<div class="title">
+ <div class="l1">Color LaserJet Pro MFP</div>
+ <div class="model">4303</div>
+ <div class="fn">Impression<b>|</b>Copie<b>|</b>Scan</div>
+ <div class="bar"></div>
+ <p>La couleur laser<br>professionnelle,<br><strong>disponible chez Dispo.</strong></p>
+</div>
+<img class="printer" src="images/hp-4303.png" alt="HP Color LaserJet Pro MFP 4303">
+<div class="tiles">
+ <div class="tile"><h3>Impression rapide<small>Jusqu’à 33 pages/min</small></h3><div class="big"><i data-i="speed"></i></div><div class="ac">33<small>ppm</small></div></div>
+ <div class="tile"><h3>3 en 1</h3><div class="row"><div><div class="b"><i data-i="print"></i></div>Imprimer</div><div><div class="b"><i data-i="copy"></i></div>Copier</div><div><div class="b"><i data-i="scan"></i></div>Scanner</div></div></div>
+ <div class="tile"><h3>Recto-verso<small>automatique</small></h3><div class="big"><i data-i="duplex"></i></div></div>
+ <div class="tile"><h3>Écran tactile<small>couleur intuitif</small></h3><div class="big"><i data-i="touch"></i></div></div>
+ <div class="tile"><h3>Connectivité<small>Wi-Fi · Ethernet · USB</small></h3><div class="row"><div><div class="b"><i data-i="wifi"></i></div>Wi-Fi</div><div><div class="b"><i data-i="lan"></i></div>Ethernet</div><div><div class="b"><i data-i="mobile"></i></div>Mobile</div></div></div>
+ <div class="tile"><h3>Couleur laser<small>Qualité professionnelle</small></h3><div class="big"><i data-i="color"></i></div></div>
+</div>
+<div class="contact"><div class="cgrid">
+ <div class="c"><div class="i"><i data-i="phone"></i></div><div><small>Appelez-nous</small><strong>78 012 11 10</strong><br><strong>77 661 09 23</strong></div></div>
+ <div class="c"><div class="i"><i data-i="web"></i></div><div><small>Commandez en ligne</small><div class="web">dispo.sn</div></div></div>
+</div>
+<div class="addr"><span class="i"><i data-i="pin"></i></span>Boutique : Médina, Rue 37 × Avenue Blaise Diagne, Dakar</div></div>
+</div><script src="icons.js"></script></body></html>
